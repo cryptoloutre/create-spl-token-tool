@@ -19,9 +19,12 @@ Donations can be made at `6MupHwVuaZnxeXbw2DEvH96ouaWdg5TygPaSruB4H7YG` if you a
   
     `git clone https://github.com/cryptoloutre/create-spl-token-tool.git`
   
-2. Open a terminal in the root of the cloned repo and run :  
+2. Change directory and run :  
   
-    `python create-spl-token.py <NETWORK> <TOKEN_NUMBER> <KEYPAIR> <PUBKEY>`
+    ```
+    cd create-spl-token-tool
+    python create-spl-token.py <NETWORK> <TOKEN_NUMBER> <KEYPAIR> <PUBKEY>
+    ```
   
   With:  
   * `<NETWORK>` : network on wich you want to create a token (`mainnet-beta` or `devnet`)
@@ -51,9 +54,12 @@ Des dons peuvent être faits à `6MupHwVuaZnxeXbw2DEvH96ouaWdg5TygPaSruB4H7YG` s
   
     `git clone https://github.com/cryptoloutre/create-spl-token-tool.git`
   
-2. Ouvrir un terminal à la racine du repo cloné et exécuter :  
+2. Changer de répertoire et exécuter :  
   
-    `python create-spl-token.py <NETWORK> <TOKEN_NUMBER> <KEYPAIR> <PUBKEY>`
+    ```
+    cd create-spl-token-tool
+    python create-spl-token.py <NETWORK> <TOKEN_NUMBER> <KEYPAIR> <PUBKEY>
+    ```
   
   Avec:  
   * `<NETWORK>` : réseau sur lequel vous souhaitez créer un token (`mainnet-beta` ou `devnet`)
