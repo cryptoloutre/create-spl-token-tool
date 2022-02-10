@@ -23,7 +23,7 @@ Donations can be made at `6MupHwVuaZnxeXbw2DEvH96ouaWdg5TygPaSruB4H7YG` if you a
   
     ```
     cd create-spl-token-tool
-    python create-spl-token.py <NETWORK> <TOKEN_NUMBER> <KEYPAIR> <PUBKEY>
+    python create-spl-token.py <NETWORK> <TOKEN_NUMBER> <KEYPAIR> <PUBKEY> <DECIMALS_NUMBER> <MINT_AUTHORITY_OPTION>
     ```
   
   With:  
@@ -31,6 +31,8 @@ Donations can be made at `6MupHwVuaZnxeXbw2DEvH96ouaWdg5TygPaSruB4H7YG` if you a
   * `<TOKEN_NUMBER>` : number of token you want to mint
   * `<KEYPAIR>` : path of your keypair file
   * `<PUBKEY>` : your public key (Must be the address associated to the keypair file)
+  * `<DECIMALS_NUMBER>` : number of decimals of your token (By default, SPL-token has 9 decimals)
+  * `<MINT_AUTHORITY_OPTION>` : if you want to disable future token mint set to `disable`, set to `enable` otherwise
 
 ## Community
 If you have questions or any troubles, feel free to reach me on Twitter [@laloutre](https://twitter.com/laloutre).
@@ -58,7 +60,7 @@ Des dons peuvent être faits à `6MupHwVuaZnxeXbw2DEvH96ouaWdg5TygPaSruB4H7YG` s
   
     ```
     cd create-spl-token-tool
-    python create-spl-token.py <NETWORK> <TOKEN_NUMBER> <KEYPAIR> <PUBKEY>
+    python create-spl-token.py <NETWORK> <TOKEN_NUMBER> <KEYPAIR> <PUBKEY> <DECIMALS_NUMBER> <MINT_AUTHORITY_OPTION>
     ```
   
   Avec:  
@@ -66,6 +68,8 @@ Des dons peuvent être faits à `6MupHwVuaZnxeXbw2DEvH96ouaWdg5TygPaSruB4H7YG` s
   * `<TOKEN_NUMBER>` : nombre de tokens à créer
   * `<KEYPAIR>` : chemin d'accès vers votre fichier keypair
   * `<PUBKEY>` : votre clé publique (Doit être l'adresse associée au fichier keypair)
+  * `<DECIMALS_NUMBER>` : nombre de déciamles de votre token. (Par défaut, les SPL-tokens ont 9 décimales)
+  * `<MINT_AUTHORITY_OPTION>` : si vous voulez désactiver le mint de futurs tokens, fixez la valeur à `disable`. Fixez la valeur à `enable` sinon.
 
 ## Communauté
 Si vous avez des questions ou des problèmes, n'hésitez pas à me contacter sur Twitter [@laloutre](https://twitter.com/laloutre).
